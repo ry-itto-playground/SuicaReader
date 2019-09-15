@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFB492EB232E77FC003C3B85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB492EA232E77FC003C3B85 /* AppDelegate.swift */; };
+		BFB492ED232E77FC003C3B85 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB492EC232E77FC003C3B85 /* SceneDelegate.swift */; };
+		BFB492EF232E77FC003C3B85 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB492EE232E77FC003C3B85 /* ContentView.swift */; };
+		BFB492F1232E77FD003C3B85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB492F0232E77FD003C3B85 /* Assets.xcassets */; };
+		BFB492F4232E77FD003C3B85 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB492F3232E77FD003C3B85 /* Preview Assets.xcassets */; };
+		BFB492F7232E77FD003C3B85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB492F5232E77FD003C3B85 /* LaunchScreen.storyboard */; };
+		BFFA8C7E232E7CCA007386A8 /* FelicaReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFA8C7D232E7CCA007386A8 /* FelicaReader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BFB492E7232E77FC003C3B85 /* SuicaReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuicaReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB492EA232E77FC003C3B85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFB492EC232E77FC003C3B85 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BFB492EE232E77FC003C3B85 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BFB492F0232E77FD003C3B85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFB492F3232E77FD003C3B85 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFB492F6232E77FD003C3B85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFB492F8232E77FD003C3B85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFB492FE232E7864003C3B85 /* SuicaReader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SuicaReader.entitlements; sourceTree = "<group>"; };
+		BFFA8C7D232E7CCA007386A8 /* FelicaReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FelicaReader.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFB492E4232E77FC003C3B85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFB492DE232E77FC003C3B85 = {
+			isa = PBXGroup;
+			children = (
+				BFB492E9232E77FC003C3B85 /* SuicaReader */,
+				BFB492E8232E77FC003C3B85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFB492E8232E77FC003C3B85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFB492E7232E77FC003C3B85 /* SuicaReader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFB492E9232E77FC003C3B85 /* SuicaReader */ = {
+			isa = PBXGroup;
+			children = (
+				BFB492EA232E77FC003C3B85 /* AppDelegate.swift */,
+				BFB492F0232E77FD003C3B85 /* Assets.xcassets */,
+				BFB492F8232E77FD003C3B85 /* Info.plist */,
+				BFB492F5232E77FD003C3B85 /* LaunchScreen.storyboard */,
+				BFFA8C7C232E7CB4007386A8 /* Models */,
+				BFB492F2232E77FD003C3B85 /* Preview Content */,
+				BFB492EC232E77FC003C3B85 /* SceneDelegate.swift */,
+				BFB492FE232E7864003C3B85 /* SuicaReader.entitlements */,
+				BFB49300232E789F003C3B85 /* ViewModels */,
+				BFB492FF232E7893003C3B85 /* Views */,
+			);
+			path = SuicaReader;
+			sourceTree = "<group>";
+		};
+		BFB492F2232E77FD003C3B85 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BFB492F3232E77FD003C3B85 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BFB492FF232E7893003C3B85 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BFB492EE232E77FC003C3B85 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BFB49300232E789F003C3B85 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BFFA8C7C232E7CB4007386A8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BFFA8C7D232E7CCA007386A8 /* FelicaReader.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFB492E6232E77FC003C3B85 /* SuicaReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB492FB232E77FD003C3B85 /* Build configuration list for PBXNativeTarget "SuicaReader" */;
+			buildPhases = (
+				BFB492E3232E77FC003C3B85 /* Sources */,
+				BFB492E4232E77FC003C3B85 /* Frameworks */,
+				BFB492E5232E77FC003C3B85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuicaReader;
+			productName = SuicaReader;
+			productReference = BFB492E7232E77FC003C3B85 /* SuicaReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFB492DF232E77FC003C3B85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "ry-itto";
+				TargetAttributes = {
+					BFB492E6232E77FC003C3B85 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = BFB492E2232E77FC003C3B85 /* Build configuration list for PBXProject "SuicaReader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFB492DE232E77FC003C3B85;
+			productRefGroup = BFB492E8232E77FC003C3B85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFB492E6232E77FC003C3B85 /* SuicaReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFB492E5232E77FC003C3B85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB492F7232E77FD003C3B85 /* LaunchScreen.storyboard in Resources */,
+				BFB492F4232E77FD003C3B85 /* Preview Assets.xcassets in Resources */,
+				BFB492F1232E77FD003C3B85 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFB492E3232E77FC003C3B85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFFA8C7E232E7CCA007386A8 /* FelicaReader.swift in Sources */,
+				BFB492EB232E77FC003C3B85 /* AppDelegate.swift in Sources */,
+				BFB492ED232E77FC003C3B85 /* SceneDelegate.swift in Sources */,
+				BFB492EF232E77FC003C3B85 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BFB492F5232E77FD003C3B85 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFB492F6232E77FD003C3B85 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFB492F9232E77FD003C3B85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFB492FA232E77FD003C3B85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFB492FC232E77FD003C3B85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SuicaReader/SuicaReader.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SuicaReader/Preview Content\"";
+				DEVELOPMENT_TEAM = DFY27HWN2G;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SuicaReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ry-itto.SuicaReader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFB492FD232E77FD003C3B85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SuicaReader/SuicaReader.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SuicaReader/Preview Content\"";
+				DEVELOPMENT_TEAM = DFY27HWN2G;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SuicaReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ry-itto.SuicaReader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFB492E2232E77FC003C3B85 /* Build configuration list for PBXProject "SuicaReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB492F9232E77FD003C3B85 /* Debug */,
+				BFB492FA232E77FD003C3B85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFB492FB232E77FD003C3B85 /* Build configuration list for PBXNativeTarget "SuicaReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB492FC232E77FD003C3B85 /* Debug */,
+				BFB492FD232E77FD003C3B85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFB492DF232E77FC003C3B85 /* Project object */;
+}
