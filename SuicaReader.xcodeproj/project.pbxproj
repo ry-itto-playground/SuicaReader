@@ -17,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF2D8801233B69F60035728B /* SuicaReader.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = SuicaReader.entitlements; sourceTree = "<group>"; };
 		BFB492E7232E77FC003C3B85 /* SuicaReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuicaReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFB492EA232E77FC003C3B85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFB492EC232E77FC003C3B85 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,7 +26,6 @@
 		BFB492F3232E77FD003C3B85 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BFB492F6232E77FD003C3B85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFB492F8232E77FD003C3B85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BFB492FE232E7864003C3B85 /* SuicaReader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SuicaReader.entitlements; sourceTree = "<group>"; };
 		BFFA8C7D232E7CCA007386A8 /* FelicaReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FelicaReader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,7 +66,7 @@
 				BFFA8C7C232E7CB4007386A8 /* Models */,
 				BFB492F2232E77FD003C3B85 /* Preview Content */,
 				BFB492EC232E77FC003C3B85 /* SceneDelegate.swift */,
-				BFB492FE232E7864003C3B85 /* SuicaReader.entitlements */,
+				BF2D8801233B69F60035728B /* SuicaReader.entitlements */,
 				BFB49300232E789F003C3B85 /* ViewModels */,
 				BFB492FF232E7893003C3B85 /* Views */,
 			);
