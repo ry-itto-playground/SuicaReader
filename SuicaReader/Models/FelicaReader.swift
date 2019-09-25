@@ -13,7 +13,7 @@ final class FelicaReader: NSObject {
     var session: NFCTagReaderSession?
 
     func beginReadNFC() {
-        self.session = NFCTagReaderSession(pollingOption: .iso18092, delegate: self)
+        self.session = NFCTagReaderSession(pollingOption: .iso14443, delegate: self)
         self.session?.alertMessage = "Felicaを近づけてください。(Suicaなど)"
         self.session?.begin()
     }
@@ -25,7 +25,9 @@ extension FelicaReader: NFCTagReaderSessionDelegate {
     }
 
     func tagReaderSession(_ session: NFCTagReaderSession, didInvalidateWithError error: Error) {
-        print("invalidate...")
+        if let readerError = error as? NFCReaderError {
+            print("code:", readerError.code, readerError.localizedDescription, readerError.userInfo, readerError.errorCode)
+        }
     }
 
     func tagReaderSession(_ session: NFCTagReaderSession, didDetect tags: [NFCTag]) {
