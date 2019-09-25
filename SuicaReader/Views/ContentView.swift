@@ -10,10 +10,11 @@ import SwiftUI
 import CoreNFC
 
 struct ContentView: View {
+    let reader = FelicaReader()
+
     var body: some View {
         Button("hoge", action: {
-            let reader = FelicaReader()
-            reader.beginReadNFC()
+            self.reader.beginReadNFC()
         })
     }
 }
